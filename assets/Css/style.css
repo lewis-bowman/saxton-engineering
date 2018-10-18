@@ -4,5 +4,105 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Nav */
+/* Background Colours */
 
+/* Footer */
+
+footer {
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.main-footer {
+    background-color: #525252;
+    text-align: center;
+}
+
+.footer-heading {
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+.site-links li a {
+    color: #fafafa;
+}
+
+.site-links li a i {
+    padding-right: 15px;
+}
+
+.contact-links li i {
+    padding-right: 15px;
+}
+
+.sub-footer {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #454545;
+    padding-top: 25px;
+}
+
+.sub-footer .brand {
+    padding-bottom: 25px;
+}
+
+.outside-link {
+    color: #fafafa;
+}
+
+.outside-link:hover {
+    color: lightblue;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* Home Page Image */
+
+.callout-container {
+    height: 85vh;
+    background: url(/assets/images/gears-and-cogs.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.big-picture {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fafafa;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 4em;
+    text-transform: capitalize;
+}
+
+.jumbotron p {
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.block-divider {
+    height: 5px;
+    width: 50px;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+}
