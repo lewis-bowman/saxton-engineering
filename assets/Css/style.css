@@ -4,6 +4,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* General */
+
+.jumbotron {
+    padding-top: 0px;
+    margin: auto;
+}
+
 /* Background Colours */
 
 /* Footer */
@@ -59,6 +66,14 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.email-link {
+    color: #fafafa;
+}
+
+.email-link:hover {
+    color: #fafafa;
+}
+
 /* Home Page Image */
 
 .callout-container {
@@ -106,3 +121,84 @@ footer {
     background-color: #fafafa;
     margin-bottom: 30px;
 }
+
+/* Home Page Information */
+
+.home-heading-2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 0;
+    margin: 0;
+    text-align: center;
+    color: darkslategrey;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.generic-text {
+    padding: 0 80px 25px;
+    border: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+/* Small Main Picture */
+
+.small-main-picture {
+    height: 25vh;
+    background: url(/assets/images/gears-and-cogs.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.small-main-picture .secondary-header {
+    padding: 30px 0 0;
+    margin: 0;
+    border: 0;
+}
+
+/*                      SERVICES                    */
+
+.item-services {
+    list-style: none;
+    padding: 10px 20px 0;
+}
+
+.item-services .fas {
+    color: darkslategrey;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+/*                      CONTACT US                  */
+
+.item-contacts {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.item-contacts .fas {
+    color: darkslategrey;
+    padding-right: 25px;
+}
+
+.email-link-contacts {
+    color: black;
+}
+
+.email-link-contacts:hover {
+    color: black;
+}
+
+/* Contact Form */
+
+.form-group {
+    padding: 10px 80px 0px;
+}
+
